@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+	width:auto;
+	margin-top:50px;
+	font-size :auto;
+}
+/* caption{
+    font-size:larger;
+    margin:lem auto;
+}*/
+tr:nth-child(odd){
+    padding:30px;
+    border:1px solid rgb(255 255 255);
+    background-color:#dea9a9;
+}
+tr:nth-child(even){
+    padding:  30px;
+    border:1px solid rgb(255 255 255);
+    background-color:#c6b0b0;
+}
+tr:nth-child(1){
+    padding:30px;
+    border:1px solid rgb(255 255 255);
+    background-color:#f3ebeb;
+}
+td{
+	font-size :30px;
+}
+th{
+    font-size: 30px;
+}
+th ,td{
+    border:1px solid rgb(255 255 255);
+    padding:30px;
+    text-align:center;
+}

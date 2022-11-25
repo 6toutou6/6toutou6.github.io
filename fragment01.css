@@ -1,0 +1,47 @@
+
+table{
+	border-collapse: collapse;
+	width:auto;
+	margin-top:50px;
+	font-size :auto;
+}
+tr:nth-child(odd){   
+ border:1px solid rgb(255 255 255);
+	background-color:rgb(58 76 124);
+    color:#f8fbf2;
+	border-collapse: collapse;
+}
+tr:nth-child(even){	
+    border:1px solid rgb(255 255 255);
+	background-color:rgb(58 76 124);
+    color:#e5e0ea;
+	border-collapse: collapse;
+}
+tr:nth-child(2){	
+    border:1px solid rgb(255 255 255);
+	background-color:rgb(34 44 68);
+    color:#f0eaed;
+	border-collapse:   collapse;
+}
+tr:nth-child(1){	
+    border:1px solid rgb(255 255 255);
+	background-color:rgb(232 231 236);
+    color:#191819;
+	border-collapse:   collapse;
+}
+th,td{
+	 border:1px solid rgb(255 255 255);
+	padding:60px;
+	text-align:center;
+}
+td{
+	font-size :30px;
+}
+th{
+    font-size: 30px;
+}
+td:hover{
+    background-color:rgb(45, 129, 232);
+	color:rgb(204, 204, 204);
+	cursor:pointer;
+}
